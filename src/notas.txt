@@ -1,0 +1,11 @@
+tarea:
+
+hacer el mismo codigo 2 veces
+	version funciones
+	version clases
+Hacer un llamado de fetch de una lista 
+que traiga y muestre en la pantalla:
+	id
+	titulo
+Usar rerct use effect
+usar componentDidMount

@@ -13,8 +13,8 @@ export default class VersionClasses extends Component {
   componentDidMount() {
     console.log("componentDidMount");
     setTimeout(() => {
-      this.setState({ nombre: "Majo", apellido: "Calderon" }, 5000);
-    });
+      this.setState({ nombre: "Majo", apellido: "Calderon" });
+    }, 5000);
   }
 
   render() {
