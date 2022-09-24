@@ -9,3 +9,5 @@ que traiga y muestre en la pantalla:
 	titulo
 Usar rerct use effect
 usar componentDidMount
+
+tratar de cortar el arreglo a 15-25 (.split?)

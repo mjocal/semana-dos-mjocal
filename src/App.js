@@ -1,13 +1,37 @@
 // import logo from "./logo.svg";
 import "./App.css";
+import VersionClasses from "./vClasses";
 import { VersionFunctions } from "./vFunctions";
 
 function App() {
   // const nombre = "Maria";
+  const listaEstudiantes = [
+    {
+      nombre: "AAA",
+      id: 10,
+    },
+    {
+      nombre: "BBB",
+      id: 20,
+    },
+    {
+      nombre: "CCC",
+      id: 30,
+    },
+  ];
 
   return (
     <div>
       <VersionFunctions />
+      <VersionClasses />
+      {/* <ul>
+        {listaEstudiantes.map((estudiante) => (
+          <li>
+            <p>nombre: {estudiante.nombre}</p>
+            <p>id: {estudiante.id}</p>
+          </li>
+        ))}
+      </ul> */}
     </div>
     // <div className="App">
     //   <header className="App-header">
